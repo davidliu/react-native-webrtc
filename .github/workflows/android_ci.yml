@@ -1,9 +1,9 @@
 name: Android CI
 on:
   push:
-    branches: [ main ]
+    branches: [ main, dl/action_test ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, dl/action_test ]
 
 jobs:
   android-compile:
